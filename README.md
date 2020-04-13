@@ -2,18 +2,18 @@
 
 ---
 
-##shinyJava is a simple Pokemon Shiny tracker. 
+## shinyJava is a simple Pokemon Shiny tracker. 
 
-##When run, you can select from 4 options.
+## When run, you can select from 4 options.
 
-###Create List
+### Create List
 : this creates a .txt to track the pokemon you are adding
 
-###Add Shiny
+### Add Shiny
 : this allows you to add pokemon to the list
 
-###List Shinies
+### List Shinies
 : this allows you to view the current list you have
 
-###Remove Shinies
+### Remove Shinies
 : not implemented yet
