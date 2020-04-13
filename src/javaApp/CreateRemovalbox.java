@@ -67,12 +67,14 @@ public class CreateRemovalbox extends JFrame implements ActionListener{
                         // pass global variable name and number input into textfield
                         GuiApp1.pokemonName = pokeName.getText();
                         GuiApp1.pokemonDexNumber = pokeDex.getText();
+                        
+                        //System.out.println(GuiApp1.pokemonName + " " + GuiApp1.pokemonDexNumber);
 
                         // if adding poke, write to file.
                         if (GuiApp1.operation == -1) {
                                 try {
                                         fileReadWrite.writeFile();
-                                        System.out.println("Printed poke into file");
+                                        System.out.println("removed poke from file");
                                 } catch (final IOException e1) {
 							// TODO Auto-generated catch block
 							e1.printStackTrace();

@@ -21,8 +21,8 @@ public class CreateDisplaybox extends JFrame implements ActionListener{
       
       public CreateDisplaybox(){
           
-    	  	  GuiApp1.operation = 0;
-    	  	  final JPanel listPanel = new JPanel();
+    	  	GuiApp1.operation = 0;
+    	  	final JPanel listPanel = new JPanel();
             final JList shiniesList = new JList(fileReadWrite.shinyList);
             final JScrollPane scrollShiny = new JScrollPane(shiniesList);
             final JLabel pokemonNameLbl = new JLabel("Pokemon:");

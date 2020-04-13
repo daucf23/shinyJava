@@ -137,7 +137,7 @@ public class GuiApp1
 	public static void remove() {
 		operation = -1;
 		// System.out.println("hello world");
-		final CreateEntrybox me = new CreateEntrybox();
+		final CreateRemovalbox me = new CreateRemovalbox();
 			
 			//me.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			me.setVisible(true);
