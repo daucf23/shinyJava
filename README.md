@@ -15,4 +15,4 @@
 		<dd>this allows you to view the current list you have</dd>
 	<dt>Remove Shinies</dt>
 		<dd>not implemented yet</dd>
-</dl>dl>
+</dl>
