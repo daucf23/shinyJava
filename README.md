@@ -6,14 +6,13 @@
 
 ## When run, you can select from 4 options.
 
-### Create List
-: this creates a .txt to track the pokemon you are adding
-
-### Add Shiny
-: this allows you to add pokemon to the list
-
-### List Shinies
-: this allows you to view the current list you have
-
-### Remove Shinies
-: not implemented yet
+<dl>
+	<dt>Create List</dt>
+		<dd>this creates a .txt to track the pokemon you are adding</dd>
+	<dt>Add Shiny</dt>
+		<dd>this allows you to add pokemon to the list</dd>
+	<dt>List Shinies</dt>
+		<dd>this allows you to view the current list you have</dd>
+	<dt>Remove Shinies</dt>
+		<dd>not implemented yet</dd>
+</dl>dl>
