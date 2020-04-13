@@ -6,11 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.awt.datatransfer.StringSelection;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.FileReader;
 
 
 public class fileReadWrite {
@@ -89,6 +86,7 @@ public class fileReadWrite {
 		
 		
 		//CreateDisplaybox.shinyList = builder.toString().split(regex);
+		scanny.close();
 	}
 	
 }
