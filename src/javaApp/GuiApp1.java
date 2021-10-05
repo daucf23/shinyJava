@@ -92,6 +92,7 @@ public class GuiApp1
 						e.printStackTrace();
 					}
 				} else if ("Remove Shinies" == (String) dropMenu.getSelectedItem()) {
+					operation = -1;
 					remove();
 				} else {
 					System.exit(0);
